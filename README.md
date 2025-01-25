@@ -22,7 +22,7 @@ Welcome to the **Marvel Mod**, a Minecraft mod that brings iconic elements and i
   - Craft powerful tools and durable armor from **Vibranium Ingots** with unique abilities and effects.
 
 ## Installation
-1. Download the mod file from the [releases section](#).
+1. Download the mod file from the [CurseForge mod page](https://legacy.curseforge.com/minecraft/mc-mods/the-marvel-mod).
 2. Place the mod file into your Minecraft **mods** folder.
 3. Make sure you are running the correct Minecraft Fabric version compatible with this mod.
 
