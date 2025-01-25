@@ -32,7 +32,7 @@ Welcome to the **Marvel Mod**, a Minecraft mod that brings iconic elements and i
 3. (Future Updates) Use Vibranium Ingots to craft advanced items and gear.
 
 ## Contribution
-If you'd like to contribute to the development of this mod or suggest features, feel free to open an issue or a pull request on our [GitHub repository](#).
+If you'd like to contribute to the development of this mod or suggest features, feel free to open an issue or a pull request on our [GitHub repository](https://github.com/Prolux1/MinecraftMarvelMod).
 
 ## Feedback
 We'd love to hear your thoughts and suggestions! Leave a comment or review to help us make this mod even better.
