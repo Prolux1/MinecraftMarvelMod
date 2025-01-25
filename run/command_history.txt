@@ -1,0 +1,4 @@
+/time set night
+/time set day
+/gamemode survival
+/gamemode creative

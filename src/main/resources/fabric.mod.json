@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "marvel",
+  "version": "${version}",
+  "name": "Marvel",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/marvel/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.prolux.marvel.client.MarvelClient"
+    ],
+    "fabric-datagen": [
+      "me.prolux.marvel.datagen.MarvelDataGenerator"
+    ],
+    "main": [
+      "me.prolux.marvel.Marvel"
+    ]
+  },
+  "mixins": [
+    "marvel.mixins.json",
+    {
+      "config": "marvel.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
