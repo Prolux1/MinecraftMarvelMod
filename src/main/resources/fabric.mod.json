@@ -3,8 +3,10 @@
   "id": "marvel",
   "version": "${version}",
   "name": "Marvel",
-  "description": "",
-  "authors": [],
+  "description": "Mod inspired by the Universe of Marvel",
+  "authors": [
+    "Prolux"
+  ],
   "contact": {},
   "license": "All-Rights-Reserved",
   "icon": "assets/marvel/icon.png",

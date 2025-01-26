@@ -2,3 +2,17 @@
 /time set day
 /gamemode survival
 /gamemode creative
+/time set day
+/weather clear
+/time set day
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/time set day
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/teleport 72.72 94.20
+/gamemode survival

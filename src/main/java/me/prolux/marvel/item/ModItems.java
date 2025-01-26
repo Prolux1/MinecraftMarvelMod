@@ -22,7 +22,7 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        Marvel.LOGGER.info("Registering Mod Items for " + Marvel.MOD_ID + " mod...");
+        Marvel.LOGGER.info("Registering Mod Items for '" + Marvel.MOD_ID + "' mod...");
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(VIBRANIUM_INGOT);
             entries.add(RAW_VIBRANIUM);
