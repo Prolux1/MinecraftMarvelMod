@@ -19,7 +19,7 @@ Welcome to the **Marvel Mod**, a Minecraft mod that brings iconic elements and i
   - Smelt **Raw Vibranium** in a Blast Furnace for faster processing, similar to other ores (✅ Done).
 
 - **Recipe for Vibranium Block**:
-  - Craft a super resistant Vibranium Block with 9 **Vibranium Ingots** (✅ Done), only mineable with a netherite pickaxe or better (❌ In development).
+  - Craft a super resistant Vibranium Block with 9 **Vibranium Ingots** (✅ Done).
 
 - **Creative tab**:
   - Add a creative tab by creating an Item Group to find more easily the items from the mod (✅ Done).
@@ -29,6 +29,9 @@ Welcome to the **Marvel Mod**, a Minecraft mod that brings iconic elements and i
 
 - **Vibranium Tools and Armor**:
   - Craft powerful tools and durable armor from **Vibranium Ingots** with unique abilities and effects (❌ In development).
+
+- **Vibranium above Netherite**
+  - Make Vibranium blocks (Block of Vibranium and Vibranium Ore) only mineable with a netherite pickaxe or better (❌ In development)
 
 ## Installation
 1. Download the mod file from the [CurseForge mod page](https://legacy.curseforge.com/minecraft/mc-mods/the-marvel-mod).
