@@ -1,6 +1,7 @@
 package me.prolux.marvel;
 
 import me.prolux.marvel.block.ModBlocks;
+import me.prolux.marvel.item.ModItemGroups;
 import me.prolux.marvel.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class Marvel implements ModInitializer {
         LOGGER.info("'" + MOD_ID + "' mod is starting...");
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
+        ModItemGroups.registerItemGroups();
     }
 }

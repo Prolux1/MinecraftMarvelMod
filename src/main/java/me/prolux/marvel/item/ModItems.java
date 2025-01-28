@@ -3,7 +3,6 @@ package me.prolux.marvel.item;
 import me.prolux.marvel.Marvel;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -23,7 +22,7 @@ public class ModItems {
 
     public static void registerModItems() {
         Marvel.LOGGER.info("Registering Mod Items for '" + Marvel.MOD_ID + "' mod...");
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+        ItemGroupEvents.modifyEntriesEvent(ModItemGroups.MARVEL_ITEM_GROUP_KEY).register(entries -> {
             entries.add(VIBRANIUM_INGOT);
             entries.add(RAW_VIBRANIUM);
         });
