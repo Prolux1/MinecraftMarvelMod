@@ -19,10 +19,10 @@ Welcome to the **Marvel Mod**, a Minecraft mod that brings iconic elements and i
   - Smelt **Raw Vibranium** in a Blast Furnace for faster processing, similar to other ores (✅ Done).
 
 - **Recipe for Vibranium Block**:
-  - Craft a super resistant Vibranium Block with 9 **Vibranium Ingots**, only mineable with a netherite pickaxe (❌ In development).
+  - Craft a super resistant Vibranium Block with 9 **Vibranium Ingots** (✅ Done), only mineable with a netherite pickaxe or better (❌ In development).
 
 - **Creative tab**:
-  - Add a creative tab along with a custom tag to find more easily the items from the mod (❌ In development).
+  - Add a creative tab by creating an Item Group to find more easily the items from the mod (✅ Done).
 
 - **Vibranium Ore Generation**:
   - Randomly generate Vibranium Ore in the overworld at a very rare spawn rate at deepslate level (❌ In development).
