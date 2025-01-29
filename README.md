@@ -12,7 +12,7 @@ Welcome to the **Marvel Mod**, a Minecraft mod that brings iconic elements and i
   - The base material for future crafting recipes, tools, and armor.
 
 - **Block of Vibranium**:
-  - A super resistant Vibranium Block.
+  - A super resistant Vibranium Block made of pure Vibranium.
 
 ### Planned Features:
 - **Blast Furnace Smelting**:
