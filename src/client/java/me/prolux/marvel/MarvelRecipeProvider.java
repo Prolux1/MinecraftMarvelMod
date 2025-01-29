@@ -25,24 +25,44 @@ public class MarvelRecipeProvider extends FabricRecipeProvider {
             public void generate() {
                 // RegistryWrapper.Impl<Item> itemLookup = registries.getOrThrow(RegistryKeys.ITEM);
 
-                // Raw Vibranium -> Vibranium Ingot in standard furnace
+                // Raw Vibranium -> Vibranium Ingot (in standard furnace)
                 offerSmelting(
                         List.of(ModItems.RAW_VIBRANIUM), // Inputs
                         RecipeCategory.MISC, // Category
                         ModItems.VIBRANIUM_INGOT, // Output
-                        3f, // Experience
+                        3.0F, // Experience
                         1600, // Cooking time
                         "raw_vibranium_to_vibranium_ingot" // group
                 );
 
-                // Raw Vibranium -> Vibranium Ingot in blast furnace
+                // Raw Vibranium -> Vibranium Ingot (in blast furnace)
                 offerBlasting(
                         List.of(ModItems.RAW_VIBRANIUM), // Inputs
                         RecipeCategory.MISC, // Category
                         ModItems.VIBRANIUM_INGOT, // Output
-                        3f, // Experience
+                        3.0F, // Experience
                         800, // Cooking time (usually half of smelting time for blasting)
                         "raw_vibranium_to_vibranium_ingot" // group
+                );
+
+                // 1 Deepslate Vibranium Ore -> 1 Raw Vibranium (in standard furnace)
+                offerSmelting(
+                        List.of(ModBlocks.DEEPSLATE_VIBRANIUM_ORE), // Inputs
+                        RecipeCategory.MISC, // Category
+                        ModItems.VIBRANIUM_INGOT, // Output
+                        3.0F, // Experience
+                        1600, // Cooking time
+                        "deepslate_vibranium_ore_to_vibranium_ingot" // group
+                );
+
+                // 1 Deepslate Vibranium Ore -> 1 Raw Vibranium (in blast furnace)
+                offerBlasting(
+                        List.of(ModBlocks.DEEPSLATE_VIBRANIUM_ORE), // Inputs
+                        RecipeCategory.MISC, // Category
+                        ModItems.VIBRANIUM_INGOT, // Output
+                        3.0F, // Experience
+                        800, // Cooking time (usually half of smelting time for blasting)
+                        "deepslate_vibranium_ore_to_vibranium_ingot" // group
                 );
 
                 // 9 Vibranium Ingots -> 1 Block of Vibranium
@@ -61,6 +81,8 @@ public class MarvelRecipeProvider extends FabricRecipeProvider {
                         .group("vibranium_conversion")
                         .criterion(hasItem(ModBlocks.VIBRANIUM_BLOCK), conditionsFromItem(ModBlocks.VIBRANIUM_BLOCK))  // Create an advancement that gives you the recipe
                         .offerTo(exporter);
+
+
             }
         };
     }

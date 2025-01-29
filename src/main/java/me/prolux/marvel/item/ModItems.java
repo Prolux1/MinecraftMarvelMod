@@ -14,7 +14,7 @@ public class ModItems {
     public static final Item VIBRANIUM_INGOT = registerItem(new Item(new Item.Settings().registryKey(VIBRANIUM_INGOT_KEY)), VIBRANIUM_INGOT_KEY);
 
     public static final RegistryKey<Item> RAW_VIBRANIUM_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Marvel.MOD_ID, "raw_vibranium"));
-    public static final Item RAW_VIBRANIUM = registerItem(new Item(new Item.Settings().registryKey(RAW_VIBRANIUM_KEY)), RAW_VIBRANIUM_KEY);
+    public static final Item RAW_VIBRANIUM = registerItem(new Item(new Item.Settings().registryKey(RAW_VIBRANIUM_KEY)), RAW_VIBRANIUM_KEY);  // color of Vibranium Hex = 14244d | darker Hex = 091124
 
     private static Item registerItem(Item item, RegistryKey<Item> registryKey) {
         return Registry.register(Registries.ITEM, registryKey.getValue(), item);

@@ -14,6 +14,11 @@ Welcome to the **Marvel Mod**, a Minecraft mod that brings iconic elements and i
 - **Block of Vibranium**:
   - A super resistant Vibranium Block made of pure Vibranium.
 
+- **Deepslate Vibranium Ore**:
+  - Vibranium Ore is a really rare material that can only be found at Deepslate level.
+  - When mined, gives Raw Vibranium.
+  - Affected by Fortune and Silk Touch.
+
 ### Planned Features:
 - **Blast Furnace Smelting**:
   - Smelt **Raw Vibranium** in a Blast Furnace for faster processing, similar to other ores (✅ Done).

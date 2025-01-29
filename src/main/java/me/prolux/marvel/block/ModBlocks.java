@@ -20,8 +20,24 @@ public class ModBlocks {
             Identifier.of(Marvel.MOD_ID, "vibranium_block")
     );
     public static final Block VIBRANIUM_BLOCK = registerBlock(
-            new Block(AbstractBlock.Settings.create().strength(100f, 2400f).requiresTool().registryKey(VIBRANIUM_BLOCK_KEY).sounds(BlockSoundGroup.NETHERITE)),
+            new Block(
+                    AbstractBlock.Settings.create()
+                            .strength(100.0F, 2400.0F)
+                            .requiresTool()
+                            .registryKey(VIBRANIUM_BLOCK_KEY)
+                            .sounds(BlockSoundGroup.NETHERITE)
+            ),
             VIBRANIUM_BLOCK_KEY,
+            true
+    );
+
+    public static final RegistryKey<Block> DEEPSLATE_VIBRANIUM_ORE_KEY = RegistryKey.of(
+            RegistryKeys.BLOCK,
+            Identifier.of(Marvel.MOD_ID, "deepslate_vibranium_ore")
+    );
+    public static final Block DEEPSLATE_VIBRANIUM_ORE = registerBlock(
+            new Block(AbstractBlock.Settings.create().strength(60.0F, 2400.0F).requiresTool().registryKey(DEEPSLATE_VIBRANIUM_ORE_KEY).sounds(BlockSoundGroup.DEEPSLATE)),
+            DEEPSLATE_VIBRANIUM_ORE_KEY,
             true
     );
 
@@ -45,6 +61,7 @@ public class ModBlocks {
         Marvel.LOGGER.info("Registering Mod Blocks for '" + Marvel.MOD_ID + "' mod...");
         ItemGroupEvents.modifyEntriesEvent(ModItemGroups.MARVEL_ITEM_GROUP_KEY).register(entries -> {
             entries.add(VIBRANIUM_BLOCK.asItem());
+            entries.add(DEEPSLATE_VIBRANIUM_ORE.asItem());
         });
     }
 }
