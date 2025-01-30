@@ -19,6 +19,11 @@ Welcome to the **Marvel Mod**, a Minecraft mod that brings iconic elements and i
   - When mined, gives Raw Vibranium.
   - Affected by Fortune and Silk Touch.
 
+- **Vibranium Hammer**:
+  - It has never been easier to mine with the Vibranium Hammer that lets you mine
+    a default 3x3 area around the targeted block.
+
+
 ### Planned Features:
 - **Blast Furnace Smelting**:
   - Smelt **Raw Vibranium** in a Blast Furnace for faster processing, similar to other ores (✅ Done).
@@ -35,8 +40,21 @@ Welcome to the **Marvel Mod**, a Minecraft mod that brings iconic elements and i
 - **Vibranium Tools and Armor**:
   - Craft powerful tools and durable armor from **Vibranium Ingots** with unique abilities and effects (❌ In development).
 
+- **Vibranium Hammer**:
+  - A powerful hammer that can break 9 blocks at a time (✅ Done).
+  - Make recipe with 2 Vibranium Reinforced Sticks and 3 Vibranium Blocks (❌ In development).
+  - Create a way to customize the range of Vibranium Hammer in exchange for valuable ressources or via an enchantment (❌ In development).
+
 - **Vibranium above Netherite**
   - Make Vibranium blocks (Block of Vibranium and Vibranium Ore) only mineable with a netherite pickaxe or better (❌ In development)
+
+- **Vibranium Nugget**:
+  - Add a recipe to transform 1 Vibranium Ingot into 9 Vibranium Nuggets and vice-versa (❌ In development).
+
+- **Vibranium Reinforced Stick**:
+  - Add a recipe to craft Vibranium Reinforced Stick (used for crafting multiple tools and weapons) with
+    1 stick in the middle of the crafting table and 4 Vibranium Nuggets surrounding it (❌ In development).
+
 
 ## Installation
 1. Download the mod file from the [CurseForge mod page](https://legacy.curseforge.com/minecraft/mc-mods/the-marvel-mod).

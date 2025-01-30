@@ -1,9 +1,24 @@
 {
   "itemGroup.marvel": "Marvel",
 
+
+
+
+
   "item.marvel.vibranium_ingot": "Vibranium Ingot",
   "item.marvel.raw_vibranium": "Raw Vibranium",
 
+
+
+
+
   "item.marvel.vibranium_block": "Block of Vibranium",
-  "item.marvel.deepslate_vibranium_ore": "Deepslate Vibranium Ore"
+  "item.marvel.deepslate_vibranium_ore": "Deepslate Vibranium Ore",
+
+
+
+
+
+  "item.marvel.vibranium_hammer": "Vibranium Hammer"
+
 }

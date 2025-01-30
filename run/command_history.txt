@@ -1,20 +1,6 @@
 /gamemode survival
 /gamemode creative
 /gamemode survival
-/give Player39 minecraft:experience_bottle 200
-/gamemode creative
-/gamemode survival
-/experience add Player39 10000
-/experience add Player39 1000000
-/gamemode creative
-/gamemode survival
-/time set day
-/weather clear
-/give Player39 minecraft:enchanted_golden_apple 64
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
 /gamemode creative
 /gamemode survival
 /gamemode creative
@@ -48,3 +34,17 @@
 /gamemode spectator
 /gamemode creative
 /gamemode spectator
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/time set day
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/give Player361 minecraft:splash_potion
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/teleport -3.00 120 244.15
+/time set day

@@ -13,10 +13,10 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "me.prolux.marvel.client.MarvelClient"
+      "me.prolux.marvel.MarvelClient"
     ],
     "fabric-datagen": [
-      "me.prolux.marvel.datagen.MarvelDataGenerator"
+      "me.prolux.marvel.MarvelDataGenerator"
     ],
     "main": [
       "me.prolux.marvel.Marvel"
