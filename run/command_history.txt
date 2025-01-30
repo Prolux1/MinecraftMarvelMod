@@ -1,31 +1,3 @@
-/summon minecraft:end_crystal
-/summon minecraft:pig -18.12 111.00 128.36 10
-/summon minecraft:pig -18.12 111.00 128.36 {}
-/summon minecraft:pig -18.12 111.00 128.36
-/summon minecraft:pig -18.12 111.00 128.36 12
-/summon minecraft:pig -18.12 111.00 128.36 {}
-/summon minecraft:pig -9.96 111.00 126.86 {id:pig}
-/time set day
-/summon minecraft:pig -9.96 111.00 126.86 {id:pig}
-/summon minecraft:pig -9.96 111.00 126.86
-/summon minecraft:zombie ~ ~2 ~ {Passengers:[{id:item,Passengers:[{id:zombie,Passengers:[{id:item,Passengers:[{id:zombie,Passengers:[{id:item,Passengers:[{id:zombie,Passengers:[{id:item,Passengers:[{id:zombie,Passengers:[{id:item,Passengers:[{id:zombie,Pas
-/summon minecraft:pig -9.96 111.00 126.86 {id:pig, id:pig}
-/execute as @e[limit=16] run summon zombie ~ ~ ~
-/kill @e
-/execute as @e[limit=1000] run summon pig ~ ~ ~
-/gamemode survival
-/gamemode creative
-/kill @e
-/time set day
-/kill @e
-/time set day
-/gamemode survival
-/gamemode creative
-/time set day
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
 /gamemode survival
 /gamemode creative
 /gamemode survival
@@ -48,3 +20,31 @@
 /gamemode creative
 /gamemode survival
 /time set day
+/give Player67 minecraft:netherite_axe 1
+/give Player67 minecraft:golden_pickaxe 1
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/teleport 45.00 150 141.53
+/gamemode survival
+/gamemode creative
+/gamemode spectator
+/gamemode creative
+/gamemode spectator
+/gamemode creative
+/gamemode spectator
+/gamemode creative
+/gamemode spectator
+/gamemode creative
+/gamemode spectator
+/gamemode creative
+/gamemode spectator
+/gamemode creative
+/gamemode spectatorcreative
+/gamemode spectator
+/gamemode creative
+/gamemode spectator
+/gamemode creative
+/gamemode spectator
+/gamemode creative
+/gamemode spectator

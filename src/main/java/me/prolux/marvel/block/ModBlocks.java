@@ -36,7 +36,13 @@ public class ModBlocks {
             Identifier.of(Marvel.MOD_ID, "deepslate_vibranium_ore")
     );
     public static final Block DEEPSLATE_VIBRANIUM_ORE = registerBlock(
-            new Block(AbstractBlock.Settings.create().strength(60.0F, 2400.0F).requiresTool().registryKey(DEEPSLATE_VIBRANIUM_ORE_KEY).sounds(BlockSoundGroup.DEEPSLATE)),
+            new Block(
+                    AbstractBlock.Settings.create()
+                            .strength(60.0F, 2400.0F)
+                            .requiresTool()
+                            .registryKey(DEEPSLATE_VIBRANIUM_ORE_KEY)
+                            .sounds(BlockSoundGroup.DEEPSLATE)
+            ),
             DEEPSLATE_VIBRANIUM_ORE_KEY,
             true
     );

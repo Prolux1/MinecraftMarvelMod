@@ -15,7 +15,7 @@ Welcome to the **Marvel Mod**, a Minecraft mod that brings iconic elements and i
   - A super resistant Vibranium Block made of pure Vibranium.
 
 - **Deepslate Vibranium Ore**:
-  - Vibranium Ore is a really rare material that can only be found at Deepslate level.
+  - Vibranium Ore is a really rare material that can only be found at Deepslate level (between y: -50 and y: -64).
   - When mined, gives Raw Vibranium.
   - Affected by Fortune and Silk Touch.
 
@@ -30,7 +30,7 @@ Welcome to the **Marvel Mod**, a Minecraft mod that brings iconic elements and i
   - Add a creative tab by creating an Item Group to find more easily the items from the mod (✅ Done).
 
 - **Vibranium Ore Generation**:
-  - Randomly generate Vibranium Ore in the overworld at a very rare spawn rate at deepslate level (❌ In development).
+  - Randomly generate Vibranium Ore in the overworld at a very rare spawn rate at deepslate level (✅ Done).
 
 - **Vibranium Tools and Armor**:
   - Craft powerful tools and durable armor from **Vibranium Ingots** with unique abilities and effects (❌ In development).
