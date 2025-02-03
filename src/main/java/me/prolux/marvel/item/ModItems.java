@@ -4,6 +4,7 @@ import me.prolux.marvel.Marvel;
 import me.prolux.marvel.item.custom.VibraniumHammer;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
+import net.minecraft.item.SwordItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -27,8 +28,8 @@ public class ModItems {
     public static final RegistryKey<Item> VIBRANIUM_HAMMER_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Marvel.MOD_ID, "vibranium_hammer"));
     public static final Item VIBRANIUM_HAMMER = registerItem(new VibraniumHammer(ModToolMaterials.VIBRANIUM_TOOL_MATERIAL, 7, -3.4f, new Item.Settings().registryKey(VIBRANIUM_HAMMER_KEY)), VIBRANIUM_HAMMER_KEY);
 
-
-
+    public static final RegistryKey<Item> VIBRANIUM_SWORD_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Marvel.MOD_ID, "vibranium_sword"));
+    public static final Item VIBRANIUM_SWORD = registerItem(new SwordItem(ModToolMaterials.VIBRANIUM_TOOL_MATERIAL, 7, -3.4f, new Item.Settings().registryKey(VIBRANIUM_SWORD_KEY)), VIBRANIUM_SWORD_KEY);
 
 
 
@@ -42,6 +43,7 @@ public class ModItems {
             entries.add(VIBRANIUM_INGOT);
             entries.add(RAW_VIBRANIUM);
             entries.add(VIBRANIUM_HAMMER);
+            entries.add(VIBRANIUM_SWORD);
         });
     }
 }

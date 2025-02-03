@@ -1,35 +1,3 @@
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/time set day
-/give Player67 minecraft:netherite_axe 1
-/give Player67 minecraft:golden_pickaxe 1
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/teleport 45.00 150 141.53
-/gamemode survival
-/gamemode creative
-/gamemode spectator
-/gamemode creative
-/gamemode spectator
-/gamemode creative
-/gamemode spectator
-/gamemode creative
-/gamemode spectator
-/gamemode creative
-/gamemode spectator
-/gamemode creative
-/gamemode spectator
-/gamemode creative
-/gamemode spectatorcreative
-/gamemode spectator
-/gamemode creative
-/gamemode spectator
 /gamemode creative
 /gamemode spectator
 /gamemode creative
@@ -48,3 +16,35 @@
 /gamemode creative
 /teleport -3.00 120 244.15
 /time set day
+/gamemode survival
+/give Player665 minecraft:enchanted_golden_apple 64
+/give Player948 minecraft:netherite_pickaxe
+/gamemode creative
+/time set day
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/give Player926 minecraft:enchanting_table
+/give Player926 minecraft:lapis_lazuli
+/give Player926 minecraft:lapis_lazuli 63
+/give Player948 minecraft:netherite_pickaxe
+/give Player926 minecraft:netherite_pickaxe
+/gamemode creative
+/gamemode survival
+/give Player550 marvel:vibranium_hammer
+/gamemode creative
+/gamemode survival
+/effect give Player217 minecraft:night_vision infinite
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative

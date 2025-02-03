@@ -1,9 +1,12 @@
 package me.prolux.marvel.datagen;
 
 
+import me.prolux.marvel.item.ModItems;
+import me.prolux.marvel.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.ItemTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -14,17 +17,16 @@ public class MarvelItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        /*
+        getOrCreateTagBuilder(ModTags.Items.VIBRANIUM_TOOL_MATERIALS)
+                .add(ModItems.VIBRANIUM_HAMMER)
+        ;
+
+        getOrCreateTagBuilder(ItemTags.PICKAXES)  // if we
+                .add(ModItems.VIBRANIUM_HAMMER)
+        ;
+
         getOrCreateTagBuilder(ItemTags.SWORDS)
-                .add(ModItems.PINK_GARNET_SWORD);
-        getOrCreateTagBuilder(ItemTags.PICKAXES)
-                .add(ModItems.PINK_GARNET_PICKAXE);
-        getOrCreateTagBuilder(ItemTags.SHOVELS)
-                .add(ModItems.PINK_GARNET_SHOVEL);
-        getOrCreateTagBuilder(ItemTags.HAM)
-                .add(ModItems.PINK_GARNET_AXE);
-        getOrCreateTagBuilder(ItemTags.HOES)
-                .add(ModItems.PINK_GARNET_HOE);
-        */
+                .add(ModItems.VIBRANIUM_SWORD)
+        ;
     }
 }

@@ -15,10 +15,10 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class HammerUsageEvent implements PlayerBlockBreakEvents.Before{
-    private int current_hammer_range = 1;
-    private int max_hammer_range = 1;
+    private static int current_hammer_range = 1;
+    private static int max_hammer_range = 1;
 
-    public void incMaxHammerRange() {
+    public static void incMaxHammerRange() {
         max_hammer_range = max_hammer_range + 1;
         current_hammer_range = max_hammer_range;
     }
