@@ -25,8 +25,8 @@ public class MarvelItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.VIBRANIUM_HAMMER)
         ;
 
-        getOrCreateTagBuilder(ItemTags.SWORDS)
-                .add(ModItems.VIBRANIUM_SWORD)
-        ;
+//        getOrCreateTagBuilder(ItemTags.SWORDS)
+//                .add(ModItems.VIBRANIUM_SWORD)
+//        ;
     }
 }

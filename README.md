@@ -49,7 +49,7 @@ Welcome to the **Marvel Mod**, a Minecraft mod that brings iconic elements and i
   - Make Vibranium blocks (Block of Vibranium and Vibranium Ore) only mineable with a netherite pickaxe or better (❌ In development)
 
 - **Vibranium Nugget**:
-  - Add a recipe to transform 1 Vibranium Ingot into 9 Vibranium Nuggets and vice-versa (❌ In development).
+  - Add a recipe to transform 1 Vibranium Ingot into 9 Vibranium Nuggets and vice-versa (✅ Done).
 
 - **Vibranium Reinforced Stick**:
   - Add a recipe to craft Vibranium Reinforced Stick (used for crafting multiple tools and weapons) with
@@ -75,3 +75,8 @@ We'd love to hear your thoughts and suggestions! Leave a comment or review to he
 ---
 
 Stay tuned for more updates as we expand the Marvel Universe in Minecraft! Together, let’s create the ultimate superhero experience in the world of blocks.
+
+
+Transform images to black and white : https://blackandwhite.imageonline.co/
+
+Change a specific color of an image to another color : https://www1.lunapic.com/editor/?action=replace-color

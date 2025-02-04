@@ -1,7 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "vibranium_conversion",
   "key": {
     "#": "marvel:vibranium_ingot"
   },

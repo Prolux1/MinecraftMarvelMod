@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "marvel:vibranium_block"
+        "recipe": "minecraft:vibranium_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "marvel:vibranium_block"
+      "minecraft:vibranium_block"
     ]
   }
 }

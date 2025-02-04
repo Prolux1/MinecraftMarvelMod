@@ -23,8 +23,10 @@ public class MarvelModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.RAW_VIBRANIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.VIBRANIUM_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.VIBRANIUM_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.VIBRANIUM_REINFORCED_STICK, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.VIBRANIUM_HAMMER, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.VIBRANIUM_SWORD, Models.HANDHELD);
+//        itemModelGenerator.register(ModItems.VIBRANIUM_SWORD, Models.HANDHELD);
     }
 }

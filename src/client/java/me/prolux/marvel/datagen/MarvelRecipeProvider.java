@@ -65,22 +65,36 @@ public class MarvelRecipeProvider extends FabricRecipeProvider {
                         "deepslate_vibranium_ore_to_vibranium_ingot" // group
                 );
 
-                // 9 Vibranium Ingots -> 1 Block of Vibranium
-                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.VIBRANIUM_BLOCK, 1)
-                        .pattern("###")
-                        .pattern("###")
-                        .pattern("###")
-                        .input('#', ModItems.VIBRANIUM_INGOT) // '#' means a Vibranium Ingot
-                        .group("vibranium_conversion")
-                        .criterion(hasItem(ModItems.VIBRANIUM_INGOT), conditionsFromItem(ModItems.VIBRANIUM_INGOT))
-                        .offerTo(exporter);
+                // Conversion between Vibranium Block -> Vibranium Ingot -> Vibranium Nugget
+                offerReversibleCompactingRecipes(
+                        RecipeCategory.MISC,
+                        ModItems.VIBRANIUM_INGOT,
+                        RecipeCategory.BUILDING_BLOCKS,
+                        ModBlocks.VIBRANIUM_BLOCK,
+                        "vibranium_block",
+                        null,
+                        "vibranium_ingot_from_vibranium_block",
+                        null
+                );
+                offerReversibleCompactingRecipes(
+                        RecipeCategory.MISC,
+                        ModItems.VIBRANIUM_NUGGET,
+                        RecipeCategory.MISC, ModItems.VIBRANIUM_INGOT,
+                        "vibranium_ingot_from_nuggets",
+                        null,
+                        "vibranium_nugget",
+                        null
+                );
 
-                // 1 Block of Vibranium -> 9 Vibranium Ingots
-                createShapeless(RecipeCategory.MISC, ModItems.VIBRANIUM_INGOT, 9)
-                        .input(ModBlocks.VIBRANIUM_BLOCK)
-                        .group("vibranium_conversion")
-                        .criterion(hasItem(ModBlocks.VIBRANIUM_BLOCK), conditionsFromItem(ModBlocks.VIBRANIUM_BLOCK))  // Create an advancement that gives you the recipe
-                        .offerTo(exporter);
+
+
+
+                // Vibranium Reinforced Stick recipe
+//                createShaped(RecipeCategory.MISC, ModItems.VIBRANIUM_REINFORCED_STICK, 1)
+//                        .
+//                ;
+
+
 
 
             }
