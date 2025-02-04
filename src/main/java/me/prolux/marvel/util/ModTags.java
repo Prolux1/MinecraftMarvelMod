@@ -10,6 +10,7 @@ import net.minecraft.util.Identifier;
 public class ModTags {
     public static class Blocks {
         public static final TagKey<Block> INCORRECT_FOR_VIBRANIUM_TOOL = TagKey.of(RegistryKeys.BLOCK, Identifier.of(Marvel.MOD_ID, "incorrect_for_vibranium_tool"));
+        public static final TagKey<Block> NEEDS_NETHERITE_TOOL = TagKey.of(RegistryKeys.BLOCK, Identifier.of(Marvel.MOD_ID, "needs_netherite_tool"));
     }
 
     public static class Items {

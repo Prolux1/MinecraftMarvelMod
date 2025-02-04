@@ -1,6 +1,7 @@
 package me.prolux.marvel.block;
 
 import me.prolux.marvel.Marvel;
+import me.prolux.marvel.block.custom.DeepslateVibraniumOre;
 import me.prolux.marvel.item.ModItemGroups;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
@@ -36,7 +37,7 @@ public class ModBlocks {
             Identifier.of(Marvel.MOD_ID, "deepslate_vibranium_ore")
     );
     public static final Block DEEPSLATE_VIBRANIUM_ORE = registerBlock(
-            new Block(
+            new DeepslateVibraniumOre(
                     AbstractBlock.Settings.create()
                             .strength(60.0F, 2400.0F)
                             .requiresTool()

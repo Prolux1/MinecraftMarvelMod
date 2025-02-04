@@ -6,7 +6,7 @@ import net.minecraft.item.ToolMaterial;
 public class ModToolMaterials {
     public static final ToolMaterial VIBRANIUM_TOOL_MATERIAL = new ToolMaterial(
             ModTags.Blocks.INCORRECT_FOR_VIBRANIUM_TOOL,
-            304600,  // 3046
+            3046,  // 3046
             19.0F,
             7.0F,
             15,

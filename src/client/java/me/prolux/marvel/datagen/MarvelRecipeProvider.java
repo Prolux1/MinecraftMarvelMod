@@ -7,6 +7,7 @@ import me.prolux.marvel.block.ModBlocks;
 import me.prolux.marvel.item.ModItems;
 import net.minecraft.data.recipe.RecipeExporter;
 import net.minecraft.data.recipe.RecipeGenerator;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 
@@ -90,10 +91,29 @@ public class MarvelRecipeProvider extends FabricRecipeProvider {
 
 
                 // Vibranium Reinforced Stick recipe
-//                createShaped(RecipeCategory.MISC, ModItems.VIBRANIUM_REINFORCED_STICK, 1)
-//                        .
-//                ;
+                createShaped(RecipeCategory.MISC, ModItems.VIBRANIUM_REINFORCED_STICK, 1)
+                        .pattern(" o ")
+                        .pattern("olo")
+                        .pattern(" o ")
+                        .input('o', ModItems.VIBRANIUM_NUGGET)
+                        .input('l', Items.STICK)
+                        .group("vibranium_reinforced_stick")
+                        .criterion(hasItem(ModItems.VIBRANIUM_NUGGET), conditionsFromItem(ModItems.VIBRANIUM_NUGGET))
+                        .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                        .offerTo(exporter);
 
+
+                // Vibranium Hammer recipe
+                createShaped(RecipeCategory.TOOLS, ModItems.VIBRANIUM_HAMMER, 1)
+                        .pattern("BBB")
+                        .pattern(" l ")
+                        .pattern(" l ")
+                        .input('B', ModBlocks.VIBRANIUM_BLOCK)
+                        .input('l', ModItems.VIBRANIUM_REINFORCED_STICK)
+                        .group("vibranium_hammer")
+                        .criterion(hasItem(ModBlocks.VIBRANIUM_BLOCK), conditionsFromItem(ModBlocks.VIBRANIUM_BLOCK))
+                        .criterion(hasItem(ModItems.VIBRANIUM_REINFORCED_STICK), conditionsFromItem(ModItems.VIBRANIUM_REINFORCED_STICK))
+                        .offerTo(exporter);
 
 
 

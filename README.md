@@ -42,7 +42,7 @@ Welcome to the **Marvel Mod**, a Minecraft mod that brings iconic elements and i
 
 - **Vibranium Hammer**:
   - A powerful hammer that can break 9 blocks at a time (✅ Done).
-  - Make recipe with 2 Vibranium Reinforced Sticks and 3 Vibranium Blocks (❌ In development).
+  - Make recipe with 2 Vibranium Reinforced Sticks and 3 Vibranium Blocks (✅ Done).
   - Create a way to customize the range of Vibranium Hammer in exchange for valuable ressources or via an enchantment (❌ In development).
 
 - **Vibranium above Netherite**
@@ -53,7 +53,7 @@ Welcome to the **Marvel Mod**, a Minecraft mod that brings iconic elements and i
 
 - **Vibranium Reinforced Stick**:
   - Add a recipe to craft Vibranium Reinforced Stick (used for crafting multiple tools and weapons) with
-    1 stick in the middle of the crafting table and 4 Vibranium Nuggets surrounding it (❌ In development).
+    1 stick in the middle of the crafting table and 4 Vibranium Nuggets surrounding it (✅ Done).
 
 
 ## Installation
