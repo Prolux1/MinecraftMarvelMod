@@ -1,15 +1,19 @@
 package me.prolux.marvel.item;
 
 import me.prolux.marvel.Marvel;
+import me.prolux.marvel.item.custom.Mjolnir;
 import me.prolux.marvel.item.custom.VibraniumHammer;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.component.DataComponentTypes;
 import net.minecraft.item.Item;
+import net.minecraft.item.MaceItem;
 import net.minecraft.item.SwordItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 
 public class ModItems {
     // Ingredients
@@ -33,10 +37,13 @@ public class ModItems {
     public static final RegistryKey<Item> VIBRANIUM_HAMMER_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Marvel.MOD_ID, "vibranium_hammer"));
     public static final Item VIBRANIUM_HAMMER = registerItem(new VibraniumHammer(ModToolMaterials.VIBRANIUM_TOOL_MATERIAL, 7, -3.4f, new Item.Settings().registryKey(VIBRANIUM_HAMMER_KEY)), VIBRANIUM_HAMMER_KEY);
 
-//    public static final RegistryKey<Item> VIBRANIUM_SWORD_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Marvel.MOD_ID, "vibranium_sword"));
-//    public static final Item VIBRANIUM_SWORD = registerItem(new SwordItem(ModToolMaterials.VIBRANIUM_TOOL_MATERIAL, 7, -3.4f, new Item.Settings().registryKey(VIBRANIUM_SWORD_KEY)), VIBRANIUM_SWORD_KEY);
-
-
+    // Weapons
+    public static final RegistryKey<Item> MJOLNIR_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Marvel.MOD_ID, "mjolnir"));
+    public static final Item MJOLNIR = registerItem(new Mjolnir(ModToolMaterials.URU_TOOL_MATERIAL,8, -2.8f,
+                    new Item.Settings()
+                            .rarity(Rarity.EPIC) // Add .repairable(URU_BLOCK)
+                            .registryKey(MJOLNIR_KEY)
+            ), MJOLNIR_KEY);
 
     private static Item registerItem(Item item, RegistryKey<Item> registryKey) {
         return Registry.register(Registries.ITEM, registryKey.getValue(), item);
@@ -51,6 +58,7 @@ public class ModItems {
             entries.add(VIBRANIUM_REINFORCED_STICK);
 
             entries.add(VIBRANIUM_HAMMER);
+            entries.add(MJOLNIR);
 //            entries.add(VIBRANIUM_SWORD);
         });
     }

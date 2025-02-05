@@ -20,7 +20,23 @@ public class MarvelBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_VIBRANIUM_ORE)
         ;
 
-        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
+        getOrCreateTagBuilder(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
+                .add(ModBlocks.VIBRANIUM_BLOCK)
+                .add(ModBlocks.DEEPSLATE_VIBRANIUM_ORE)
+        ;
+        getOrCreateTagBuilder(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+                .add(ModBlocks.VIBRANIUM_BLOCK)
+                .add(ModBlocks.DEEPSLATE_VIBRANIUM_ORE)
+        ;
+        getOrCreateTagBuilder(BlockTags.INCORRECT_FOR_STONE_TOOL)
+                .add(ModBlocks.VIBRANIUM_BLOCK)
+                .add(ModBlocks.DEEPSLATE_VIBRANIUM_ORE)
+        ;
+        getOrCreateTagBuilder(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .add(ModBlocks.VIBRANIUM_BLOCK)
+                .add(ModBlocks.DEEPSLATE_VIBRANIUM_ORE)
+        ;
+        getOrCreateTagBuilder(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
                 .add(ModBlocks.VIBRANIUM_BLOCK)
                 .add(ModBlocks.DEEPSLATE_VIBRANIUM_ORE)
         ;

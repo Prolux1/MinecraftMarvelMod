@@ -46,7 +46,7 @@ Welcome to the **Marvel Mod**, a Minecraft mod that brings iconic elements and i
   - Create a way to customize the range of Vibranium Hammer in exchange for valuable ressources or via an enchantment (❌ In development).
 
 - **Vibranium above Netherite**
-  - Make Vibranium blocks (Block of Vibranium and Vibranium Ore) only mineable with a netherite pickaxe or better (❌ In development)
+  - Make Vibranium blocks (Block of Vibranium and Vibranium Ore) only mineable with a netherite pickaxe or better (✅ Done)
 
 - **Vibranium Nugget**:
   - Add a recipe to transform 1 Vibranium Ingot into 9 Vibranium Nuggets and vice-versa (✅ Done).
@@ -55,6 +55,22 @@ Welcome to the **Marvel Mod**, a Minecraft mod that brings iconic elements and i
   - Add a recipe to craft Vibranium Reinforced Stick (used for crafting multiple tools and weapons) with
     1 stick in the middle of the crafting table and 4 Vibranium Nuggets surrounding it (✅ Done).
 
+- **Mjöllnir (Thor's Hammer)**:
+  - Thor's hammer does massive damage on left click and can summon thunder on right click (❌ In development)
+  - Add recipe : 2 Uru blocks, 1 storm core and 2 vibranium reinforced sticks (❌ In development)
+
+- **Uru Metal**:
+  - Add ore generation only in the End dimension for Uru Ore (❌ In development)
+  - Add Raw Uru dropped by Uru Ore, and make the ore affected by mining enchants (❌ In development)
+  - Add Uru Ingot obtained from smelting / blasting Raw Uru (❌ In development)
+  - Add compacting recipe for Uru Ingot (Uru Block + Uru Nugget) (❌ In development)
+
+- **Storm Core**:
+  - Maybe obtainable via an event linked with thunderstorms (❌ In development)
+
+
+(❌ In development)
+(✅ Done)
 
 ## Installation
 1. Download the mod file from the [CurseForge mod page](https://legacy.curseforge.com/minecraft/mc-mods/the-marvel-mod).

@@ -21,12 +21,16 @@ public class MarvelItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.VIBRANIUM_HAMMER)
         ;
 
-        getOrCreateTagBuilder(ItemTags.PICKAXES)  // if we
+        getOrCreateTagBuilder(ModTags.Items.URU_TOOL_MATERIALS)
+                .add(ModItems.MJOLNIR)
+        ;
+
+        getOrCreateTagBuilder(ItemTags.PICKAXES)  // make enchants for pickaxes applicable to the hammer
                 .add(ModItems.VIBRANIUM_HAMMER)
         ;
 
-//        getOrCreateTagBuilder(ItemTags.SWORDS)
-//                .add(ModItems.VIBRANIUM_SWORD)
-//        ;
+        getOrCreateTagBuilder(ItemTags.DURABILITY_ENCHANTABLE)  // adds unbreaking enchants possible
+                .add(ModItems.MJOLNIR)
+        ;
     }
 }
