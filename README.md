@@ -1,74 +1,40 @@
 # Minecraft Marvel Mod
 
-Welcome to the **Marvel Mod**, a Minecraft mod that brings iconic elements and inspirations from the Marvel Universe into the game! This mod is a work in progress, and your feedback is greatly appreciated.
+Welcome to the **Marvel Mod**, a Minecraft mod that brings iconic elements and
+inspirations from the Marvel Universe into the game! This mod is a work in progress,
+and your feedback is greatly appreciated.
 
 ## Features
-### Current Features:
-- **Raw Vibranium**: 
-  - A rare and precious resource inspired by the Marvel Universe.
-  - Can be smelted in a furnace to create **Vibranium Ingots**.
+- **Vibranium**: 
+  - Add **Deepslate Vibranium Ore** rarely found at Deepslate level between y: -64 and
+    y: -50 (✅ Done).
+  - Add **Raw Vibranium** drops from mining **Deepslate Vibranium Ore** with a Netherite
+    tier pickaxe or above, affected with Silk Touch and Fortune (✅ Done).
+  - Add **Vibranium Ingot** obtained from smelting **Raw Vibranium** in a furnace or
+    blast furnace (✅ Done).
+  - Add **Block of Vibranium** and **Vibranium Nugget** compacting recipes (✅ Done).
+  - Add **Vibranium Reinforced Stick** made with 1 stick in the middle of the crafting
+    table and 4 Vibranium Nuggets surrounding it (✅ Done).
+  - Add **Vibranium Hammer** made from 2 **Vibranium Reinforced Stick** and 3 **Vibranium
+    Block**. The Vibranium Hammer lets you mine a default 3x3x2 (2 blocks depths) around
+    the targeted block (✅ Done). The range of the Vibranium Hammer can be increased in exchange
+    for valuable ressources (❌ In development).
+  - Add **Vibranium Tools and Armor** to craft powerful tools and durable armor with
+    unique abilities and effects (❌ In development).
 
-- **Vibranium Ingot**:
-  - The base material for future crafting recipes, tools, and armor.
-
-- **Block of Vibranium**:
-  - A super resistant Vibranium Block made of pure Vibranium.
-
-- **Deepslate Vibranium Ore**:
-  - Vibranium Ore is a really rare material that can only be found at Deepslate level (between y: -50 and y: -64).
-  - When mined, gives Raw Vibranium.
-  - Affected by Fortune and Silk Touch.
-
-- **Vibranium Hammer**:
-  - It has never been easier to mine with the Vibranium Hammer that lets you mine
-    a default 3x3 area around the targeted block.
-
-
-### Planned Features:
-- **Blast Furnace Smelting**:
-  - Smelt **Raw Vibranium** in a Blast Furnace for faster processing, similar to other ores (✅ Done).
-
-- **Recipe for Vibranium Block**:
-  - Craft a super resistant Vibranium Block with 9 **Vibranium Ingots** (✅ Done).
-
-- **Creative tab**:
-  - Add a creative tab by creating an Item Group to find more easily the items from the mod (✅ Done).
-
-- **Vibranium Ore Generation**:
-  - Randomly generate Vibranium Ore in the overworld at a very rare spawn rate at deepslate level (✅ Done).
-
-- **Vibranium Tools and Armor**:
-  - Craft powerful tools and durable armor from **Vibranium Ingots** with unique abilities and effects (❌ In development).
-
-- **Vibranium Hammer**:
-  - A powerful hammer that can break 9 blocks at a time (✅ Done).
-  - Make recipe with 2 Vibranium Reinforced Sticks and 3 Vibranium Blocks (✅ Done).
-  - Create a way to customize the range of Vibranium Hammer in exchange for valuable ressources or via an enchantment (❌ In development).
-
-- **Vibranium above Netherite**
-  - Make Vibranium blocks (Block of Vibranium and Vibranium Ore) only mineable with a netherite pickaxe or better (✅ Done)
-
-- **Vibranium Nugget**:
-  - Add a recipe to transform 1 Vibranium Ingot into 9 Vibranium Nuggets and vice-versa (✅ Done).
-
-- **Vibranium Reinforced Stick**:
-  - Add a recipe to craft Vibranium Reinforced Stick (used for crafting multiple tools and weapons) with
-    1 stick in the middle of the crafting table and 4 Vibranium Nuggets surrounding it (✅ Done).
-
-- **Mjöllnir (Thor's Hammer)**:
-  - Thor's hammer does massive damage on left click and can summon thunder on right click (✅ Done)
-  - Add recipe : 2 Uru blocks, 1 storm core and 2 vibranium reinforced sticks (✅ Done)
-
-- **Uru Metal**:
-  - Add ore generation only in the End dimension for Uru Ore (✅ Done)
-  - Add Raw Uru dropped by Uru Ore, and make the ore affected by mining enchants (✅ Done)
-  - Add Uru Ingot obtained from smelting / blasting Raw Uru (✅ Done)
-  - Add compacting recipe for Uru Ingot (Uru Block + Uru Nugget) (✅ Done)
-  - Add Uru Core crafted with 4 Uru Ingot surrounding the middle slot (✅ Done)
-
-- **Storm Core**:
-  - Right-click a Charged Creeper with a Uru Core to transform it into a Storm Core (✅ Done)
-
+- **Uru Metal**
+  - Add **End Uru Ore** rarely found in the End dimension (✅ Done)
+  - Add **Raw Uru** dropped from mining **End Uru Ore**, requires a Vibranium tier mining
+    tool or above to be mined, affected with Silk Touch and Fortune (✅ Done)
+  - Add **Uru Ingot** obtained from smelting / blasting **Raw Uru** (✅ Done)
+  - Add **Block of Uru** + **Uru Nugget** compacting recipes with **Uru Ingot** (✅ Done)
+  - Add **Uru Core** crafted with 4 **Uru Ingot** surrounding the middle slot of the
+    crafting table (✅ Done)
+  - Add **Storm Core**, obtained by Right-clicking a Charged Creeper with a Uru Core
+    (✅ Done)
+  - Add **Mjöllnir (Thor's Hammer)**, it can be crafted with 2 **Block of Uru**,
+    1 storm core and 2 **Vibranium Reinforced Stick**. It does massive damage on left
+    click and can summon thunder where the player is looking at on right click (✅ Done)
 
 (❌ In development)
 (✅ Done)
