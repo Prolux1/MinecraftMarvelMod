@@ -26,8 +26,8 @@ public class MarvelRecipeProvider extends FabricRecipeProvider {
             public void generate() {
                 // RegistryWrapper.Impl<Item> itemLookup = registries.getOrThrow(RegistryKeys.ITEM);
 
-                // Raw Vibranium -> Vibranium Ingot (in standard furnace)
-                offerSmelting(
+                // Raw Vibranium -> Vibranium Ingot (in standard furnace and blast furnace)
+                offerSmeltingAndBlasting(
                         List.of(ModItems.RAW_VIBRANIUM), // Inputs
                         RecipeCategory.MISC, // Category
                         ModItems.VIBRANIUM_INGOT, // Output
@@ -36,18 +36,8 @@ public class MarvelRecipeProvider extends FabricRecipeProvider {
                         "raw_vibranium_to_vibranium_ingot" // group
                 );
 
-                // Raw Vibranium -> Vibranium Ingot (in blast furnace)
-                offerBlasting(
-                        List.of(ModItems.RAW_VIBRANIUM), // Inputs
-                        RecipeCategory.MISC, // Category
-                        ModItems.VIBRANIUM_INGOT, // Output
-                        3.0F, // Experience
-                        800, // Cooking time (usually half of smelting time for blasting)
-                        "raw_vibranium_to_vibranium_ingot" // group
-                );
-
-                // 1 Deepslate Vibranium Ore -> 1 Raw Vibranium (in standard furnace)
-                offerSmelting(
+                // 1 Deepslate Vibranium Ore -> 1 Raw Vibranium (in standard furnace and blast furnace)
+                offerSmeltingAndBlasting(
                         List.of(ModBlocks.DEEPSLATE_VIBRANIUM_ORE), // Inputs
                         RecipeCategory.MISC, // Category
                         ModItems.VIBRANIUM_INGOT, // Output
@@ -56,14 +46,14 @@ public class MarvelRecipeProvider extends FabricRecipeProvider {
                         "deepslate_vibranium_ore_to_vibranium_ingot" // group
                 );
 
-                // 1 Deepslate Vibranium Ore -> 1 Raw Vibranium (in blast furnace)
-                offerBlasting(
-                        List.of(ModBlocks.DEEPSLATE_VIBRANIUM_ORE), // Inputs
+                // Raw Uru -> Uru Ingot (in standard furnace and blast furnace)
+                offerSmeltingAndBlasting(
+                        List.of(ModItems.RAW_URU), // Inputs
                         RecipeCategory.MISC, // Category
-                        ModItems.VIBRANIUM_INGOT, // Output
-                        3.0F, // Experience
-                        800, // Cooking time (usually half of smelting time for blasting)
-                        "deepslate_vibranium_ore_to_vibranium_ingot" // group
+                        ModItems.URU_INGOT, // Output
+                        4.5F, // Experience
+                        2400, // Cooking time
+                        "raw_uru_to_uru_ingot" // group
                 );
 
                 // Conversion between Vibranium Block -> Vibranium Ingot -> Vibranium Nugget
@@ -84,6 +74,28 @@ public class MarvelRecipeProvider extends FabricRecipeProvider {
                         "vibranium_ingot_from_nuggets",
                         null,
                         "vibranium_nugget",
+                        null
+                );
+
+                // Conversion between Uru Block -> Uru Ingot -> Uru Nugget
+                offerReversibleCompactingRecipes(
+                        RecipeCategory.MISC,
+                        ModItems.URU_INGOT,
+                        RecipeCategory.BUILDING_BLOCKS,
+                        ModBlocks.URU_BLOCK,
+                        "uru_block",
+                        null,
+                        "uru_ingot_from_uru_block",
+                        null
+                );
+                offerReversibleCompactingRecipes(
+                        RecipeCategory.MISC,
+                        ModItems.URU_NUGGET,
+                        RecipeCategory.MISC,
+                        ModItems.URU_INGOT,
+                        "uru_ingot_from_nuggets",
+                        null,
+                        "uru_nugget",
                         null
                 );
 
@@ -115,8 +127,37 @@ public class MarvelRecipeProvider extends FabricRecipeProvider {
                         .criterion(hasItem(ModItems.VIBRANIUM_REINFORCED_STICK), conditionsFromItem(ModItems.VIBRANIUM_REINFORCED_STICK))
                         .offerTo(exporter);
 
+                // Uru Core recipe
+                createShaped(RecipeCategory.MISC, ModItems.URU_CORE, 1)
+                        .pattern(" u ")
+                        .pattern("u u")
+                        .pattern(" u ")
+                        .input('u', ModItems.URU_INGOT)
+                        .group("uru_core")
+                        .criterion(hasItem(ModItems.URU_INGOT), conditionsFromItem(ModItems.URU_INGOT))
+                        .offerTo(exporter);
 
+                // Mjollnir recipe
+                createShaped(RecipeCategory.COMBAT, ModItems.MJOLNIR, 1)
+                        .pattern("BCB")
+                        .pattern(" l ")
+                        .pattern(" l ")
+                        .input('B', ModBlocks.URU_BLOCK)
+                        .input('C', ModItems.STORM_CORE)
+                        .input('l', ModItems.VIBRANIUM_REINFORCED_STICK)
+                        .group("uru_core")
+                        .criterion(hasItem(ModBlocks.URU_BLOCK), conditionsFromItem(ModBlocks.URU_BLOCK))
+                        .criterion(hasItem(ModItems.STORM_CORE), conditionsFromItem(ModItems.STORM_CORE))
+                        .criterion(hasItem(ModItems.VIBRANIUM_REINFORCED_STICK), conditionsFromItem(ModItems.VIBRANIUM_REINFORCED_STICK))
+                        .offerTo(exporter);
+            }
 
+            private void offerSmeltingAndBlasting(java.util.List<net.minecraft.item.ItemConvertible> inputs,
+                                                  net.minecraft.recipe.book.RecipeCategory category,
+                                                  net.minecraft.item.ItemConvertible output,
+                                                  float experience, int cookingTime, String group) {
+                offerSmelting(inputs, category, output, experience, cookingTime, group);
+                offerBlasting(inputs, category, output, experience, cookingTime / 2, group);
             }
         };
     }

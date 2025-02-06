@@ -1,9 +1,6 @@
 package me.prolux.marvel;
 
-import me.prolux.marvel.datagen.MarvelBlockTagProvider;
-import me.prolux.marvel.datagen.MarvelItemTagProvider;
-import me.prolux.marvel.datagen.MarvelModelProvider;
-import me.prolux.marvel.datagen.MarvelRecipeProvider;
+import me.prolux.marvel.datagen.*;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
@@ -15,5 +12,6 @@ public class MarvelDataGenerator implements DataGeneratorEntrypoint {
         pack.addProvider(MarvelItemTagProvider::new);
         pack.addProvider(MarvelBlockTagProvider::new);
         pack.addProvider(MarvelModelProvider::new);
+        pack.addProvider(MarvelLootTableProvider::new);
     }
 }

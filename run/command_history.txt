@@ -4,47 +4,47 @@
 /gamemode survival
 /gamemode creative
 /gamemode survival
+/summon minecraft:sheep ~ ~ ~ 10
+/summon minecraft:sheep ~ ~ ~
+/summon minecraft:sheep ~ ~ ~10
+/summon minecraft:sheep ~ ~ ~ 10
+/summon minecraft:sheep ~ ~ ~
 /gamemode creative
 /gamemode survival
 /gamemode creative
 /gamemode survival
 /gamemode creative
 /gamemode survival
-/give Player203 minecraft:diamond_block 64
+/give Player21 minecraft:diamond_block 64
+/xp set Player21 0
+/xp add Player21 -1000
+/xp add Player21 -10000
+/xp add Player21 -100000
+/give Player21 minecraft:coal_block 64
+/give Player21 minecraft:raw_gold 64
+/xp add Player21 -10000
 /gamemode creative
 /gamemode survival
-/give Player46 minecraft:glow_item_frame 64
-/gamemode creative
-/teleport 82.72 150 79.00
-/gamemode survival
+/give Player264 marvel:vibranium_hammer
 /gamemode creative
 /gamemode survival
-/effect give Player223 minecraft:night_vision infinite
-/gamemode survival
+/give Player400 minecraft:diamond_block 64
 /gamemode creative
 /gamemode survival
+/give Player716 marvel:storm_core
 /gamemode creative
+/summon minecraft:creeper
 /gamemode survival
-/xp add Player726 100000
 /gamemode creative
+/summon minecraft:creeper
 /gamemode survival
-/give Player639 marvel:deepslate_vibranium_ore
-/give Player639 marvel:deepslate_vibranium_ore 63
-/give @p iron_sword[enchantments={levels:{"minecraft:knockback":255}}]
-/give @p minecraft:wooden_pickaxe[enchantments={levels:{"minecraft:efficiency":255}}]
-/gamemode creative
-/effect give Player340 minecraft:night_vision infinite
-/gamemode survival
-/give Player412 marvel:mjolnir
-/gamemode creative
-/gamemode survival
-/give Player257 minecraft:mace
-/summon minecraft:cow ~ ~ ~
+/time set day
 /gamemode creative
 /gamemode survival
 /gamemode creative
 /gamemode survival
-/xp add Player141 10
+/gamemode creative
+/gamemode survival
 /gamemode creative
 /gamemode survival
 /gamemode creative

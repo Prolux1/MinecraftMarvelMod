@@ -2,6 +2,7 @@ package me.prolux.marvel.item;
 
 import me.prolux.marvel.Marvel;
 import me.prolux.marvel.item.custom.Mjolnir;
+import me.prolux.marvel.item.custom.UruCore;
 import me.prolux.marvel.item.custom.VibraniumHammer;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.component.DataComponentTypes;
@@ -16,7 +17,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 
 public class ModItems {
-    // Ingredients
+    // Ingredients for Vibranium
     public static final RegistryKey<Item> VIBRANIUM_INGOT_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Marvel.MOD_ID, "vibranium_ingot"));
     public static final Item VIBRANIUM_INGOT = registerItem(new Item(new Item.Settings().registryKey(VIBRANIUM_INGOT_KEY)), VIBRANIUM_INGOT_KEY);
 
@@ -29,8 +30,21 @@ public class ModItems {
     public static final RegistryKey<Item> VIBRANIUM_REINFORCED_STICK_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Marvel.MOD_ID, "vibranium_reinforced_stick"));
     public static final Item VIBRANIUM_REINFORCED_STICK = registerItem(new Item(new Item.Settings().registryKey(VIBRANIUM_REINFORCED_STICK_KEY)), VIBRANIUM_REINFORCED_STICK_KEY);
 
+    // Ingredients for Uru
+    public static final RegistryKey<Item> URU_INGOT_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Marvel.MOD_ID, "uru_ingot"));
+    public static final Item URU_INGOT = registerItem(new Item(new Item.Settings().registryKey(URU_INGOT_KEY)), URU_INGOT_KEY);
 
+    public static final RegistryKey<Item> RAW_URU_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Marvel.MOD_ID, "raw_uru"));
+    public static final Item RAW_URU = registerItem(new Item(new Item.Settings().registryKey(RAW_URU_KEY)), RAW_URU_KEY);
 
+    public static final RegistryKey<Item> URU_NUGGET_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Marvel.MOD_ID, "uru_nugget"));
+    public static final Item URU_NUGGET = registerItem(new Item(new Item.Settings().registryKey(URU_NUGGET_KEY)), URU_NUGGET_KEY);
+
+    public static final RegistryKey<Item> URU_CORE_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Marvel.MOD_ID, "uru_core"));
+    public static final Item URU_CORE = registerItem(new UruCore(new Item.Settings().registryKey(URU_CORE_KEY)), URU_CORE_KEY);
+
+    public static final RegistryKey<Item> STORM_CORE_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Marvel.MOD_ID, "storm_core"));
+    public static final Item STORM_CORE = registerItem(new Item(new Item.Settings().registryKey(STORM_CORE_KEY)), STORM_CORE_KEY);
 
 
     // Tools
@@ -57,9 +71,14 @@ public class ModItems {
             entries.add(VIBRANIUM_NUGGET);
             entries.add(VIBRANIUM_REINFORCED_STICK);
 
+            entries.add(URU_INGOT);
+            entries.add(RAW_URU);
+            entries.add(URU_NUGGET);
+            entries.add(URU_CORE);
+            entries.add(STORM_CORE);
+
             entries.add(VIBRANIUM_HAMMER);
             entries.add(MJOLNIR);
-//            entries.add(VIBRANIUM_SWORD);
         });
     }
 }

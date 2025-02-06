@@ -56,17 +56,18 @@ Welcome to the **Marvel Mod**, a Minecraft mod that brings iconic elements and i
     1 stick in the middle of the crafting table and 4 Vibranium Nuggets surrounding it (✅ Done).
 
 - **Mjöllnir (Thor's Hammer)**:
-  - Thor's hammer does massive damage on left click and can summon thunder on right click (❌ In development)
-  - Add recipe : 2 Uru blocks, 1 storm core and 2 vibranium reinforced sticks (❌ In development)
+  - Thor's hammer does massive damage on left click and can summon thunder on right click (✅ Done)
+  - Add recipe : 2 Uru blocks, 1 storm core and 2 vibranium reinforced sticks (✅ Done)
 
 - **Uru Metal**:
   - Add ore generation only in the End dimension for Uru Ore (❌ In development)
   - Add Raw Uru dropped by Uru Ore, and make the ore affected by mining enchants (❌ In development)
-  - Add Uru Ingot obtained from smelting / blasting Raw Uru (❌ In development)
-  - Add compacting recipe for Uru Ingot (Uru Block + Uru Nugget) (❌ In development)
+  - Add Uru Ingot obtained from smelting / blasting Raw Uru (✅ Done)
+  - Add compacting recipe for Uru Ingot (Uru Block + Uru Nugget) (✅ Done)
+  - Add Uru Core crafted with 4 Uru Ingot surrounding the middle slot (✅ Done)
 
 - **Storm Core**:
-  - Maybe obtainable via an event linked with thunderstorms (❌ In development)
+  - Right-click a Charged Creeper with a Uru Core to transform it into a Storm Core (✅ Done)
 
 
 (❌ In development)

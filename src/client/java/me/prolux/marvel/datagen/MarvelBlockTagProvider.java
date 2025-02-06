@@ -18,27 +18,36 @@ public class MarvelBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.VIBRANIUM_BLOCK)
                 .add(ModBlocks.DEEPSLATE_VIBRANIUM_ORE)
+                .add(ModBlocks.URU_BLOCK)
         ;
 
         getOrCreateTagBuilder(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
                 .add(ModBlocks.VIBRANIUM_BLOCK)
                 .add(ModBlocks.DEEPSLATE_VIBRANIUM_ORE)
+                .add(ModBlocks.URU_BLOCK)
         ;
         getOrCreateTagBuilder(BlockTags.INCORRECT_FOR_GOLD_TOOL)
                 .add(ModBlocks.VIBRANIUM_BLOCK)
                 .add(ModBlocks.DEEPSLATE_VIBRANIUM_ORE)
+                .add(ModBlocks.URU_BLOCK)
         ;
         getOrCreateTagBuilder(BlockTags.INCORRECT_FOR_STONE_TOOL)
                 .add(ModBlocks.VIBRANIUM_BLOCK)
                 .add(ModBlocks.DEEPSLATE_VIBRANIUM_ORE)
+                .add(ModBlocks.URU_BLOCK)
         ;
         getOrCreateTagBuilder(BlockTags.INCORRECT_FOR_IRON_TOOL)
                 .add(ModBlocks.VIBRANIUM_BLOCK)
                 .add(ModBlocks.DEEPSLATE_VIBRANIUM_ORE)
+                .add(ModBlocks.URU_BLOCK)
         ;
         getOrCreateTagBuilder(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
                 .add(ModBlocks.VIBRANIUM_BLOCK)
                 .add(ModBlocks.DEEPSLATE_VIBRANIUM_ORE)
+                .add(ModBlocks.URU_BLOCK)
+        ;
+        getOrCreateTagBuilder(BlockTags.INCORRECT_FOR_NETHERITE_TOOL)
+                .add(ModBlocks.URU_BLOCK)
         ;
     }
 }

@@ -17,6 +17,7 @@ public class MarvelModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.VIBRANIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_VIBRANIUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.URU_BLOCK);
     }
 
     @Override
@@ -25,6 +26,12 @@ public class MarvelModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.VIBRANIUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.VIBRANIUM_NUGGET, Models.GENERATED);
         itemModelGenerator.register(ModItems.VIBRANIUM_REINFORCED_STICK, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.RAW_URU, Models.GENERATED);
+        itemModelGenerator.register(ModItems.URU_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.URU_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.URU_CORE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.STORM_CORE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.VIBRANIUM_HAMMER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.MJOLNIR, Models.HANDHELD_MACE);

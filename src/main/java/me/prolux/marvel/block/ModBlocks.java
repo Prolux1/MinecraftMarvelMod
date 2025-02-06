@@ -6,6 +6,7 @@ import me.prolux.marvel.item.ModItemGroups;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.MapColor;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -23,6 +24,7 @@ public class ModBlocks {
     public static final Block VIBRANIUM_BLOCK = registerBlock(
             new Block(
                     AbstractBlock.Settings.create()
+                            .mapColor(MapColor.LAPIS_BLUE)
                             .strength(100.0F, 2400.0F)
                             .requiresTool()
                             .registryKey(VIBRANIUM_BLOCK_KEY)
@@ -39,12 +41,33 @@ public class ModBlocks {
     public static final Block DEEPSLATE_VIBRANIUM_ORE = registerBlock(
             new DeepslateVibraniumOre(
                     AbstractBlock.Settings.create()
+                            .mapColor(MapColor.DEEPSLATE_GRAY)
                             .strength(60.0F, 2400.0F)
                             .requiresTool()
                             .registryKey(DEEPSLATE_VIBRANIUM_ORE_KEY)
                             .sounds(BlockSoundGroup.DEEPSLATE)
             ),
             DEEPSLATE_VIBRANIUM_ORE_KEY,
+            true
+    );
+
+
+
+
+    public static final RegistryKey<Block> URU_BLOCK_KEY = RegistryKey.of(
+            RegistryKeys.BLOCK,
+            Identifier.of(Marvel.MOD_ID, "uru_block")
+    );
+    public static final Block URU_BLOCK = registerBlock(
+            new Block(
+                    AbstractBlock.Settings.create()
+                            .mapColor(MapColor.IRON_GRAY)
+                            .strength(150.0F, 3600.0F)
+                            .requiresTool()
+                            .registryKey(URU_BLOCK_KEY)
+                            .sounds(BlockSoundGroup.METAL)
+            ),
+            URU_BLOCK_KEY,
             true
     );
 
@@ -69,6 +92,8 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ModItemGroups.MARVEL_ITEM_GROUP_KEY).register(entries -> {
             entries.add(VIBRANIUM_BLOCK.asItem());
             entries.add(DEEPSLATE_VIBRANIUM_ORE.asItem());
+
+            entries.add(URU_BLOCK.asItem());
         });
     }
 }
