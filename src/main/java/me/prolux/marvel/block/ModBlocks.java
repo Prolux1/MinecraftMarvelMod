@@ -17,10 +17,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final RegistryKey<Block> VIBRANIUM_BLOCK_KEY = RegistryKey.of(
-            RegistryKeys.BLOCK,
-            Identifier.of(Marvel.MOD_ID, "vibranium_block")
-    );
+    public static final RegistryKey<Block> VIBRANIUM_BLOCK_KEY = registerKey("vibranium_block");
     public static final Block VIBRANIUM_BLOCK = registerBlock(
             new Block(
                     AbstractBlock.Settings.create()
@@ -34,10 +31,7 @@ public class ModBlocks {
             true
     );
 
-    public static final RegistryKey<Block> DEEPSLATE_VIBRANIUM_ORE_KEY = RegistryKey.of(
-            RegistryKeys.BLOCK,
-            Identifier.of(Marvel.MOD_ID, "deepslate_vibranium_ore")
-    );
+    public static final RegistryKey<Block> DEEPSLATE_VIBRANIUM_ORE_KEY = registerKey("deepslate_vibranium_ore");
     public static final Block DEEPSLATE_VIBRANIUM_ORE = registerBlock(
             new DeepslateVibraniumOre(
                     AbstractBlock.Settings.create()
@@ -54,10 +48,7 @@ public class ModBlocks {
 
 
 
-    public static final RegistryKey<Block> URU_BLOCK_KEY = RegistryKey.of(
-            RegistryKeys.BLOCK,
-            Identifier.of(Marvel.MOD_ID, "uru_block")
-    );
+    public static final RegistryKey<Block> URU_BLOCK_KEY = registerKey("uru_block");
     public static final Block URU_BLOCK = registerBlock(
             new Block(
                     AbstractBlock.Settings.create()
@@ -70,6 +61,23 @@ public class ModBlocks {
             URU_BLOCK_KEY,
             true
     );
+
+    public static final RegistryKey<Block> END_URU_ORE_KEY = registerKey("end_uru_ore");
+    public static final Block END_URU_ORE = registerBlock(
+            new DeepslateVibraniumOre(
+                    AbstractBlock.Settings.create()
+                            .mapColor(MapColor.PALE_YELLOW)
+                            .strength(90.0F, 3600.0F)
+                            .requiresTool()
+                            .registryKey(END_URU_ORE_KEY)
+            ),
+            END_URU_ORE_KEY,
+            true
+    );
+
+    private static RegistryKey<Block> registerKey(String name) {
+        return RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Marvel.MOD_ID, name));
+    }
 
 
     public static Block registerBlock(Block block, RegistryKey<Block> blockKey, boolean shouldRegisterItem) {
@@ -94,6 +102,7 @@ public class ModBlocks {
             entries.add(DEEPSLATE_VIBRANIUM_ORE.asItem());
 
             entries.add(URU_BLOCK.asItem());
+            entries.add(END_URU_ORE.asItem());
         });
     }
 }

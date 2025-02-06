@@ -19,5 +19,6 @@ public class MarvelLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.URU_BLOCK);
 
         addDrop(ModBlocks.DEEPSLATE_VIBRANIUM_ORE, oreDrops(ModBlocks.DEEPSLATE_VIBRANIUM_ORE, ModItems.RAW_VIBRANIUM));
+        addDrop(ModBlocks.END_URU_ORE, oreDrops(ModBlocks.END_URU_ORE, ModItems.RAW_URU));
     }
 }

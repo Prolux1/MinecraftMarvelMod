@@ -18,6 +18,7 @@ public class MarvelModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.VIBRANIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_VIBRANIUM_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.URU_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_URU_ORE);
     }
 
     @Override

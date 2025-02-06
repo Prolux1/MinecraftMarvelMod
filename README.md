@@ -60,8 +60,8 @@ Welcome to the **Marvel Mod**, a Minecraft mod that brings iconic elements and i
   - Add recipe : 2 Uru blocks, 1 storm core and 2 vibranium reinforced sticks (✅ Done)
 
 - **Uru Metal**:
-  - Add ore generation only in the End dimension for Uru Ore (❌ In development)
-  - Add Raw Uru dropped by Uru Ore, and make the ore affected by mining enchants (❌ In development)
+  - Add ore generation only in the End dimension for Uru Ore (✅ Done)
+  - Add Raw Uru dropped by Uru Ore, and make the ore affected by mining enchants (✅ Done)
   - Add Uru Ingot obtained from smelting / blasting Raw Uru (✅ Done)
   - Add compacting recipe for Uru Ingot (Uru Block + Uru Nugget) (✅ Done)
   - Add Uru Core crafted with 4 Uru Ingot surrounding the middle slot (✅ Done)
