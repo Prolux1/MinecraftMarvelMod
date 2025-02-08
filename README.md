@@ -21,7 +21,8 @@ and your feedback is greatly appreciated.
     for valuable ressources (❌ In development).
   - Add **Captain America's Shield** that is indestructible (obviously) but not cheep,
     you will need 4 **Vibranium Ingot** surrounding the middle slot of the crafting
-    table and a nether star in the center.
+    table and a nether star in the center (✅ Done). When you first get it you will get the
+    prestigious achievement "ASSEMBLE" (❌ In development).
   - Add **Vibranium Tools and Armor** to craft powerful tools and durable armor with
     unique abilities and effects (❌ In development).
 

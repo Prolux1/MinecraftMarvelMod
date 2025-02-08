@@ -20,6 +20,9 @@ import net.minecraft.client.data.Models;
 import net.minecraft.client.render.entity.model.EntityModelLayer;
 import net.minecraft.client.render.entity.model.ShieldEntityModel;
 import net.minecraft.client.render.item.model.special.ShieldModelRenderer;
+import net.minecraft.client.render.item.property.bool.BooleanProperties;
+import net.minecraft.client.render.item.property.bool.BooleanProperty;
+import net.minecraft.client.render.item.property.bool.UsingItemProperty;
 import net.minecraft.util.Identifier;
 
 public class MarvelModelProvider extends FabricModelProvider {

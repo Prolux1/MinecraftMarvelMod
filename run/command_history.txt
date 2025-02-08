@@ -1,14 +1,4 @@
 /gamemode survival
-/give Player264 marvel:vibranium_hammer
-/gamemode creative
-/gamemode survival
-/give Player400 minecraft:diamond_block 64
-/gamemode creative
-/gamemode survival
-/give Player716 marvel:storm_core
-/gamemode creative
-/summon minecraft:creeper
-/gamemode survival
 /gamemode creative
 /summon minecraft:creeper
 /gamemode survival
@@ -48,3 +38,13 @@
 /gamemode survival
 /gamemode creative
 /time set day
+/time set night
+/summon minecraft:skeleton
+/gamemode survival
+/gamemode creative
+/summon minecraft:skeleton
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival

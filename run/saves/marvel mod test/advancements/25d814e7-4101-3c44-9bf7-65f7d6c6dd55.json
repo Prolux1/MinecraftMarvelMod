@@ -12,5 +12,101 @@
     },
     "done": false
   },
+  "minecraft:recipes/food/suspicious_stew_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-02-08 10:31:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-02-08 10:31:20 +0100"
+    },
+    "done": true
+  },
+  "marvel:recipes/misc/vibranium_ingot_from_smelting_deepslate_vibranium_ore": {
+    "criteria": {
+      "has_deepslate_vibranium_ore": "2025-02-08 10:31:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-02-08 10:31:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2025-02-08 10:31:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-02-08 10:31:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-02-08 10:31:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_iron_block": {
+    "criteria": {
+      "has_raw_iron": "2025-02-08 10:31:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-02-08 10:31:20 +0100"
+    },
+    "done": true
+  },
+  "marvel:recipes/misc/uru_ingot_from_smelting_raw_uru": {
+    "criteria": {
+      "has_raw_uru": "2025-02-08 10:31:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-02-08 10:31:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-02-08 10:31:20 +0100"
+    },
+    "done": true
+  },
+  "marvel:recipes/misc/uru_ingot_from_blasting_raw_uru": {
+    "criteria": {
+      "has_raw_uru": "2025-02-08 10:31:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-02-08 10:31:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-02-08 10:31:20 +0100"
+    },
+    "done": true
+  },
+  "marvel:recipes/misc/vibranium_ingot_from_blasting_deepslate_vibranium_ore": {
+    "criteria": {
+      "has_deepslate_vibranium_ore": "2025-02-08 10:31:20 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 4189
 }

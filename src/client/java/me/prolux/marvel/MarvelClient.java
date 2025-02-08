@@ -9,16 +9,7 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.util.Identifier;
 
 public class MarvelClient implements ClientModInitializer {
-    public static final EntityModelLayer CAPTAIN_AMERICAS_SHIELD_MODEL_LAYER = new EntityModelLayer(Identifier.of(Marvel.MOD_ID, "captain_americas_shield"),"main");
-    public static ShieldEntityModel CAPTAIN_AMERICAS_SHIELD_MODEL;
-
     @Override
     public void onInitializeClient() {
-        EntityModelLayerRegistry.registerModelLayer(CAPTAIN_AMERICAS_SHIELD_MODEL_LAYER, ShieldEntityModel::getTexturedModelData);
-
-        ShieldSetModelCallback.EVENT.register((loader) -> {
-            CAPTAIN_AMERICAS_SHIELD_MODEL = new ShieldEntityModel(loader.getModelPart(CAPTAIN_AMERICAS_SHIELD_MODEL_LAYER));
-            return ActionResult.PASS;
-        });
     }
 }

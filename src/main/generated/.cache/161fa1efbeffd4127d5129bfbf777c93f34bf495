@@ -1,6 +1,7 @@
 // 1.21.4	-999999999-01-01T00:00:00	Marvel/MarvelRecipeProvider
 d050fd27530b549cf92288e8daf923438388a720 data/marvel/advancement/recipes/building_blocks/uru_block.json
 ce20ebee3cc9f163d90068b6ac82b4ae5c44c65d data/marvel/advancement/recipes/building_blocks/vibranium_block.json
+5964a07f5199073a4f846d9266a9184dcc0a0010 data/marvel/advancement/recipes/combat/captain_americas_shield.json
 062a0789c945e5842d14300c478500224d004617 data/marvel/advancement/recipes/combat/mjolnir.json
 b5b24e7a37d773b3ab8fe9a5b74c791cd59f5976 data/marvel/advancement/recipes/misc/uru_core.json
 d2a76b1e65475703b9e7116bfa28c072e29a3cc2 data/marvel/advancement/recipes/misc/uru_ingot_from_blasting_raw_uru.json
@@ -17,7 +18,8 @@ ef44583144d0dc6de8217cce89e6a721ab0ed2b2 data/marvel/advancement/recipes/misc/vi
 130142ac1456d1ec48246ada65379f7536ee3436 data/marvel/advancement/recipes/misc/vibranium_nugget.json
 7c69dd51c7246f67e7ebda99ed4970e7df989152 data/marvel/advancement/recipes/misc/vibranium_reinforced_stick.json
 52ca2cb3155cfcc4093e18a9fcc13e63db47a585 data/marvel/advancement/recipes/tools/vibranium_hammer.json
-24b70b911102a75c5aec6945be4817e8f3773a0c data/marvel/recipe/mjolnir.json
+0bbd2458bfc02511fb2d8afab903abb4bd46478c data/marvel/recipe/captain_americas_shield.json
+1a8055fce46f27cf8e91b40031419094dee73953 data/marvel/recipe/mjolnir.json
 93fec58834e1f294987c6d665f4abcf16e584335 data/marvel/recipe/uru_block.json
 fd5e7dcfa2794eca46c386e85190ded50c40375c data/marvel/recipe/uru_core.json
 14bf234170ac5c9341958ed9cac37c75aacb92e0 data/marvel/recipe/uru_ingot_from_blasting_raw_uru.json

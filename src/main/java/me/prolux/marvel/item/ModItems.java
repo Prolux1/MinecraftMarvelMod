@@ -46,10 +46,10 @@ public class ModItems {
     public static final RegistryKey<Item> CAPTAIN_AMERICAS_SHIELD_KEY = registerKey("captain_americas_shield");
     public static final Item CAPTAIN_AMERICAS_SHIELD = registerItem(new CaptainAmericasShield(
             new Item.Settings()
-                    .rarity(Rarity.EPIC) // Add .repairable(URU_BLOCK)
-                    .registryKey(CAPTAIN_AMERICAS_SHIELD_KEY), 10, ModToolMaterials.VIBRANIUM_TOOL_MATERIAL
+                    .maxDamage(-1)
+                    .rarity(Rarity.EPIC)
+                    .registryKey(CAPTAIN_AMERICAS_SHIELD_KEY), 10, 22, null
     ), CAPTAIN_AMERICAS_SHIELD_KEY);
-
 
     private static RegistryKey<Item> registerKey(String name) {
         return RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Marvel.MOD_ID, name));

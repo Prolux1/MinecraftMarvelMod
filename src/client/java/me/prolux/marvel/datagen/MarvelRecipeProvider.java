@@ -145,10 +145,22 @@ public class MarvelRecipeProvider extends FabricRecipeProvider {
                         .input('B', ModBlocks.URU_BLOCK)
                         .input('C', ModItems.STORM_CORE)
                         .input('l', ModItems.VIBRANIUM_REINFORCED_STICK)
-                        .group("uru_core")
+                        .group("mjolnir")
                         .criterion(hasItem(ModBlocks.URU_BLOCK), conditionsFromItem(ModBlocks.URU_BLOCK))
                         .criterion(hasItem(ModItems.STORM_CORE), conditionsFromItem(ModItems.STORM_CORE))
                         .criterion(hasItem(ModItems.VIBRANIUM_REINFORCED_STICK), conditionsFromItem(ModItems.VIBRANIUM_REINFORCED_STICK))
+                        .offerTo(exporter);
+
+                // Captain America's Shield Recipe
+                createShaped(RecipeCategory.COMBAT, ModItems.CAPTAIN_AMERICAS_SHIELD, 1)
+                        .pattern(" V ")
+                        .pattern("VNV")
+                        .pattern(" V ")
+                        .input('V', ModItems.VIBRANIUM_INGOT)
+                        .input('N', Items.NETHER_STAR)
+                        .group("captain_americas_shield")
+                        .criterion(hasItem(ModItems.VIBRANIUM_INGOT), conditionsFromItem(ModItems.VIBRANIUM_INGOT))
+                        .criterion(hasItem(Items.NETHER_STAR), conditionsFromItem(Items.NETHER_STAR))
                         .offerTo(exporter);
             }
 
