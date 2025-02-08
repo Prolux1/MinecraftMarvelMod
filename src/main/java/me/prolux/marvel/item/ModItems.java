@@ -1,6 +1,7 @@
 package me.prolux.marvel.item;
 
 import me.prolux.marvel.Marvel;
+import me.prolux.marvel.item.custom.CaptainAmericasShield;
 import me.prolux.marvel.item.custom.Mjolnir;
 import me.prolux.marvel.item.custom.UruCore;
 import me.prolux.marvel.item.custom.VibraniumHammer;
@@ -41,6 +42,15 @@ public class ModItems {
                             .registryKey(MJOLNIR_KEY)
             ), MJOLNIR_KEY);
 
+    // Shields
+    public static final RegistryKey<Item> CAPTAIN_AMERICAS_SHIELD_KEY = registerKey("captain_americas_shield");
+    public static final Item CAPTAIN_AMERICAS_SHIELD = registerItem(new CaptainAmericasShield(
+            new Item.Settings()
+                    .rarity(Rarity.EPIC) // Add .repairable(URU_BLOCK)
+                    .registryKey(CAPTAIN_AMERICAS_SHIELD_KEY), 10, ModToolMaterials.VIBRANIUM_TOOL_MATERIAL
+    ), CAPTAIN_AMERICAS_SHIELD_KEY);
+
+
     private static RegistryKey<Item> registerKey(String name) {
         return RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Marvel.MOD_ID, name));
     }
@@ -70,6 +80,8 @@ public class ModItems {
 
             entries.add(VIBRANIUM_HAMMER);
             entries.add(MJOLNIR);
+
+            entries.add(CAPTAIN_AMERICAS_SHIELD);
         });
     }
 }

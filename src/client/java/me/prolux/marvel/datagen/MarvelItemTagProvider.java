@@ -31,6 +31,7 @@ public class MarvelItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ItemTags.DURABILITY_ENCHANTABLE)  // adds unbreaking enchants possible
                 .add(ModItems.MJOLNIR)
+                .add(ModItems.CAPTAIN_AMERICAS_SHIELD)
         ;
     }
 }

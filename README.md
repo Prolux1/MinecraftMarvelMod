@@ -19,6 +19,9 @@ and your feedback is greatly appreciated.
     Block**. The Vibranium Hammer lets you mine a default 3x3x2 (2 blocks depths) around
     the targeted block (✅ Done). The range of the Vibranium Hammer can be increased in exchange
     for valuable ressources (❌ In development).
+  - Add **Captain America's Shield** that is indestructible (obviously) but not cheep,
+    you will need 4 **Vibranium Ingot** surrounding the middle slot of the crafting
+    table and a nether star in the center.
   - Add **Vibranium Tools and Armor** to craft powerful tools and durable armor with
     unique abilities and effects (❌ In development).
 

@@ -1,12 +1,26 @@
 package me.prolux.marvel.datagen;
 
+import com.github.crimsondawn45.fabricshieldlib.initializers.FabricShieldLib;
+import com.github.crimsondawn45.fabricshieldlib.initializers.FabricShieldLibClient;
+import com.github.crimsondawn45.fabricshieldlib.lib.config.FabricShieldLibConfig;
+import com.github.crimsondawn45.fabricshieldlib.lib.config.FabricShieldLibModMenuIntegration;
+import com.github.crimsondawn45.fabricshieldlib.lib.object.FabricShieldItem;
+import com.github.crimsondawn45.fabricshieldlib.lib.object.FabricShieldModelComponent;
+import com.github.crimsondawn45.fabricshieldlib.lib.object.FabricShieldModelRenderer;
+import com.github.crimsondawn45.fabricshieldlib.lib.object.FabricShieldUtils;
+import me.prolux.marvel.Marvel;
 import me.prolux.marvel.block.ModBlocks;
 import me.prolux.marvel.item.ModItems;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
+import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.minecraft.client.data.BlockStateModelGenerator;
 import net.minecraft.client.data.ItemModelGenerator;
 import net.minecraft.client.data.Models;
+import net.minecraft.client.render.entity.model.EntityModelLayer;
+import net.minecraft.client.render.entity.model.ShieldEntityModel;
+import net.minecraft.client.render.item.model.special.ShieldModelRenderer;
+import net.minecraft.util.Identifier;
 
 public class MarvelModelProvider extends FabricModelProvider {
     public MarvelModelProvider(FabricDataOutput output) {
